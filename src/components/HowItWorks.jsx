@@ -50,7 +50,7 @@ export default function HowItWorks() {
             End-to-End Workflow
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-900 mt-3 mb-4">
-            How Scheme Sahayak Works
+            How Sarthi Works
           </h2>
           <p className="text-base text-slate-600 leading-relaxed">
             From initial voice query to e-Mitra submission — structured for high accuracy, zero jargon, and complete transparency.

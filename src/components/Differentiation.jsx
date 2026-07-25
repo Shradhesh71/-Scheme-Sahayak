@@ -45,7 +45,7 @@ export default function Differentiation() {
             Strategic Differentiation
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-900 mt-3 mb-4">
-            How Scheme Sahayak Compares
+            How Sarthi Compares
           </h2>
           <p className="text-base text-slate-600 leading-relaxed">
             Transitioning government welfare from passive static web listings to active, dialect-aware citizen delivery.
@@ -65,7 +65,7 @@ export default function Differentiation() {
                   <th className="py-4 px-6 text-sm font-bold text-amber-300 w-1/3 border-l border-slate-800 bg-blue-950">
                     <div className="flex items-center gap-2">
                       <ShieldCheck className="w-4 h-4 text-amber-400" />
-                      <span>Scheme Sahayak (Gradify)</span>
+                      <span>Sarthi (Gradify)</span>
                     </div>
                   </th>
                 </tr>

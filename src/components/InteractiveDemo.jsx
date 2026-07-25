@@ -135,7 +135,7 @@ export default function InteractiveDemo() {
             <span>Interactive Platform Preview</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">
-            Test Scheme Sahayak Live
+            Test Sarthi Live
           </h2>
           <p className="text-base text-slate-300 leading-relaxed">
             Select sample citizen attributes below to test our deterministic eligibility engine and view instant document checklists.
@@ -156,7 +156,7 @@ export default function InteractiveDemo() {
                 </div>
                 <div>
                   <h3 className="font-bold text-sm text-white flex items-center gap-2">
-                    Scheme Sahayak AI (योजना सहायक)
+                    Sarthi AI (योजना सहायक)
                     <span className="w-2 h-2 rounded-full bg-emerald-400" />
                   </h3>
                   <p className="text-xs text-emerald-200">

@@ -30,7 +30,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           
           {/* Brand Logo & Lockup */}
-          <a href="#" className="flex items-center gap-3 group">
+          <a href="#" className="flex items-center gap-3 group" aria-label="Sarthi home">
             <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-slate-900 shadow-md ring-1 ring-slate-800 transition-transform group-hover:scale-105">
               <img 
                 src="https://www.gradifytech.com/gradify-mark-light.svg" 
@@ -40,7 +40,7 @@ export default function Header() {
             </div>
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
-                <span className="font-sans-header text-lg font-bold text-slate-900 tracking-tight">Scheme Sahayak</span>
+                <span className="font-sans-header text-lg font-bold text-slate-900 tracking-tight">Sarthi</span>
                 <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded bg-blue-50 text-blue-900 border border-blue-200 uppercase tracking-wider">
                   DoIT&C Preview
                 </span>
@@ -52,7 +52,7 @@ export default function Header() {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1 bg-slate-100/80 p-1.5 rounded-full border border-slate-200">
+          <nav aria-label="Primary" className="hidden lg:flex items-center gap-1 bg-slate-100/80 p-1.5 rounded-full border border-slate-200">
             {navLinks.map((link) => (
               <a
                 key={link.name}

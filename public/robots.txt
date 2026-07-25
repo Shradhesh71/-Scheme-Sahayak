@@ -1,0 +1,8 @@
+# robots.txt for Sarthi (योजना सहायक) — Gradify Labs LLP
+User-agent: *
+Allow: /
+
+# Block noise
+Disallow: /assets/
+
+Sitemap: https://sarthi.gradifytech.com/sitemap.xml

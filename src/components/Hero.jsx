@@ -87,7 +87,7 @@ export default function Hero() {
                   </div>
                   <div>
                     <h3 className="font-bold text-sm leading-tight flex items-center gap-1.5">
-                      Scheme Sahayak (योजना सहायक)
+                      Sarthi (योजना सहायक)
                       <span className="w-2 h-2 rounded-full bg-emerald-400 inline-block" title="Online" />
                     </h3>
                     <p className="text-[11px] text-emerald-100">Rajasthan Gov Verified Bot • Active</p>

@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
 
             <p className="text-slate-400 max-w-md leading-relaxed">
-              Scheme Sahayak (योजना सहायक) is a voice-first, WhatsApp-native AI platform engineered by Gradify Labs LLP to match citizens with Rajasthan government welfare benefits.
+              Sarthi (योजना सहायक) is a voice-first, WhatsApp-native AI platform engineered by Gradify Labs LLP to match citizens with Rajasthan government welfare benefits.
             </p>
 
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] text-slate-500 font-medium">

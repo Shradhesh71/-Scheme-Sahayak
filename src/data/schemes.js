@@ -174,7 +174,7 @@ export const DEMO_QUESTIONS = [
   {
     id: "occupation",
     questionHindi: "नमस्ते! मैं योजना सहायक हूँ। आपको और आपके परिवार को किन सरकारी योजनाओं का लाभ मिल सकता है, यह जानने के लिए कुछ सवाल पूछूँगा। आपका मुख्य व्यवसाय या स्थिति क्या है?",
-    questionEnglish: "Namaste! I am Scheme Sahayak. I will ask a few simple questions to match you with Rajasthan government welfare schemes. What is your primary occupation or status?",
+    questionEnglish: "Namaste! I am Sarthi. I will ask a few simple questions to match you with Rajasthan government welfare schemes. What is your primary occupation or status?",
     options: [
       { label: "किसान (Farmer)", value: "Farmer" },
       { label: "छात्र (Student)", value: "Student" },
