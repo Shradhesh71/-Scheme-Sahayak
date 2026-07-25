@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --primary-navy: #0F2C59;
+  --secondary-navy: #1E3A8A;
+  --teal-accent: #0284C7;
+  --emerald-accent: #0D9488;
+  --gold-accent: #D97706;
+  --bg-light: #F8FAFC;
+  --card-bg: #FFFFFF;
+  --border-color: #E2E8F0;
+  --text-main: #0F172A;
+  --text-muted: #475569;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-sans-header {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Govtech Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Mic Audio Waveform Simulation Animation */
+@keyframes sound-wave {
+  0%, 100% { height: 4px; }
+  50% { height: 28px; }
+}
+
+.wave-bar {
+  width: 4px;
+  background-color: #0284C7;
+  border-radius: 2px;
+  animation: sound-wave 1.2s infinite ease-in-out;
+}
+.wave-bar:nth-child(1) { animation-delay: 0.0s; }
+.wave-bar:nth-child(2) { animation-delay: 0.2s; }
+.wave-bar:nth-child(3) { animation-delay: 0.4s; }
+.wave-bar:nth-child(4) { animation-delay: 0.1s; }
+.wave-bar:nth-child(5) { animation-delay: 0.3s; }
+.wave-bar:nth-child(6) { animation-delay: 0.5s; }
+
+/* Subtle Grid Pattern */
+.bg-gov-grid {
+  background-image: radial-gradient(rgba(15, 44, 89, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-hero-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #F1F5F9 50%, #E2E8F0 100%);
+}
+
+/* WhatsApp Simulation Styles */
+.whatsapp-chat-bg {
+  background-color: #ECE5DD;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.whatsapp-bubble-bot {
+  background-color: #FFFFFF;
+  border-radius: 0px 12px 12px 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-bubble-user {
+  background-color: #E7FCE3;
+  border-radius: 12px 0px 12px 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Printable checklist */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-scheme-checklist, #printable-scheme-checklist * {
+    visibility: visible;
+  }
+  #printable-scheme-checklist {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
