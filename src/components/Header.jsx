@@ -15,6 +15,7 @@ export default function Header() {
 
   const navLinks = [
     { name: 'How It Works', href: '#how-it-works' },
+    { name: '3 Channels', href: '#three-channels' },
     { name: 'Features', href: '#features' },
     { name: 'Live Demo', href: '#interactive-demo' },
     { name: 'Architecture', href: '#architecture' },

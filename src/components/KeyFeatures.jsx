@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mic, ShieldCheck, FileCheck2, Share2, Layers, Cpu, Lock } from 'lucide-react';
+import { Mic, ShieldCheck, FileCheck2, Share2, Layers, PhoneCall, Lock } from 'lucide-react';
 
 export default function KeyFeatures() {
   const features = [
@@ -9,9 +9,14 @@ export default function KeyFeatures() {
       desc: "Supports spoken audio queries in standard Hindi and regional Rajasthani dialects (Mewari, Vagadi, Marwari). Citizens can speak naturally without typing complex queries."
     },
     {
+      icon: PhoneCall,
+      title: "Toll-free IVR / Missed-Call Access",
+      desc: "A toll-free number citizens can call, or give a missed call to receive a callback, reaching the same assistant with zero internet dependency — critical for the lowest-connectivity, most under-served citizens."
+    },
+    {
       icon: ShieldCheck,
       title: "Auditable Eligibility Engine",
-      desc: "Built on deterministic, explainable decision-tree logic — not a hallucinating black-box LLM. Every match cite exact department rule criteria."
+      desc: "Built on deterministic, explainable decision-tree logic — not a hallucinating black-box LLM. Every match cites exact department rule criteria."
     },
     {
       icon: FileCheck2,
@@ -25,13 +30,8 @@ export default function KeyFeatures() {
     },
     {
       icon: Layers,
-      title: "Dual Channel, One Shared Backend",
-      desc: "Deploys simultaneously as a zero-install WhatsApp chatbot and an embeddable website widget for state department portals (Jan Soochna / RajKisan)."
-    },
-    {
-      icon: Lock,
-      title: "Enterprise Security & Privacy",
-      desc: "Architected to ISO 27001 and ISO 9001 standards. Zero PII retention on external LLM servers; fully compliant with DPDP Act 2023."
+      title: "Multi-Channel, One Shared Backend",
+      desc: "Deploys across WhatsApp, embeddable portal widgets, and IVR telephony gateways — all powered by a single centralized eligibility engine."
     }
   ];
 

@@ -12,13 +12,13 @@ export default function Credibility() {
 
   const deployments = [
     {
-      entity: "IIIT Surat",
+      entity: "Indian Institute of Information Technology Surat",
       type: "Academic Credential Infrastructure",
-      details: "30,000+ verifiable academic credentials anchored and live on-chain.",
+      details: "Verifiable academic credentials anchored and live on-chain.",
       status: "Production Live"
     },
     {
-      entity: "Ulhasnagar Municipal Corporation",
+      entity: "Municipal Corporation",
       type: "Civic Document Verification",
       details: "Production deployment for automated municipal credential verification.",
       status: "Production Live"
@@ -32,7 +32,7 @@ export default function Credibility() {
   ];
 
   const supporters = [
-    "Solana Foundation", "CoinDCX Innovation Grant", "AWS Activate", "Microsoft for Startups", "Google for Startups"
+    "iStart Rajasthan", "SSIP Gujarat", "Y Combinator" ,"Solana Foundation", "CoinDCX Innovation Grant", "AWS Activate", "Microsoft for Startups", "Google for Startups",
   ];
 
   return (

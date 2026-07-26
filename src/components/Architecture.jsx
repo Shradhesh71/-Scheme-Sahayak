@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mic, Cpu, Smartphone, Globe, ArrowDown, Database, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { Mic, Cpu, Smartphone, Globe, ArrowDown, PhoneCall} from 'lucide-react';
 
 export default function Architecture() {
   return (
@@ -15,7 +15,7 @@ export default function Architecture() {
             3-Layer System Architecture
           </h2>
           <p className="text-base text-slate-600 leading-relaxed">
-            Designed for modularity, low-latency execution, and seamless integration into Rajasthan state IT infrastructure.
+            Designed for modularity, low-latency execution, and multi-channel delivery feeding into one shared backend engine.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function Architecture() {
                   <Cpu className="w-5 h-5 text-amber-400" />
                 </div>
                 <div>
-                  <span className="text-xs font-bold uppercase text-blue-900">Layer 2 • Core Logic</span>
+                  <span className="text-xs font-bold uppercase text-blue-900">Layer 2 • Central Logic</span>
                   <h3 className="font-serif text-xl font-bold text-slate-900">Auditable Eligibility Engine</h3>
                 </div>
               </div>
@@ -114,25 +114,32 @@ export default function Architecture() {
                   <h3 className="font-serif text-xl font-bold text-slate-900">Multi-Channel Delivery Layer</h3>
                 </div>
               </div>
-              <span className="text-xs font-semibold text-slate-500 bg-slate-100 px-3 py-1 rounded-full">
-                WhatsApp + Web Widget
+              <span className="text-xs font-semibold text-slate-700 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full">
+                3 Front Doors • 1 Backend
               </span>
             </div>
 
-            <div className="grid sm:grid-cols-2 gap-4 text-xs">
-              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 flex items-start gap-3">
-                <Smartphone className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+            <div className="grid sm:grid-cols-3 gap-4 text-xs">
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 flex flex-col justify-between">
                 <div>
+                  <Smartphone className="w-5 h-5 text-emerald-600 mb-2" />
                   <span className="font-bold text-slate-900 block mb-1">WhatsApp Official Bot</span>
-                  <p className="text-slate-600">Zero-install channel with voice note recognition and immediate document PDF delivery.</p>
+                  <p className="text-slate-600 leading-relaxed">Zero-install channel linked to e-Mitra's existing number with voice note recognition.</p>
                 </div>
               </div>
 
-              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 flex items-start gap-3">
-                <Globe className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 flex flex-col justify-between">
                 <div>
-                  <span className="font-bold text-slate-900 block mb-1">Embeddable Portal Widget</span>
-                  <p className="text-slate-600">Lightweight JS snippet for Jan Soochna Portal, RajKisan, and e-Mitra kiosk displays.</p>
+                  <Globe className="w-5 h-5 text-blue-600 mb-2" />
+                  <span className="font-bold text-slate-900 block mb-1">Embeddable Website Widget</span>
+                  <p className="text-slate-600 leading-relaxed">Lightweight JS snippet for Jan Soochna Portal, RajKisan, and scheme pages.</p>
+                </div>
+              </div>
+              <div className="bg-amber-50/70 p-4 rounded-xl border border-amber-300 flex flex-col justify-between">
+                <div>
+                  <PhoneCall className="w-5 h-5 text-amber-700 mb-2" />
+                  <span className="font-bold text-slate-900 block mb-1">IVR / Telephony Gateway</span>
+                  <p className="text-slate-600 leading-relaxed">Toll-free line & missed-call callback service feeding directly into the same eligibility engine.</p>
                 </div>
               </div>
             </div>

@@ -7,7 +7,7 @@ export default function HowItWorks() {
       num: "01",
       icon: Mic,
       title: "Citizen Initiates Interaction",
-      desc: "Talks via voice or text in Hindi or regional Rajasthani dialects (e.g. Mewari, Vagadi) on WhatsApp or an embedded scheme widget."
+      desc: "Citizen reaches the assistant three ways — WhatsApp, a widget on the scheme page, or a toll-free number they call or give a missed call to for a callback. Same conversation, same eligibility engine, regardless of channel."
     },
     {
       num: "02",

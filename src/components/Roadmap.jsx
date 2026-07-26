@@ -6,24 +6,24 @@ export default function Roadmap() {
     {
       phase: "Phase 1",
       timeline: "Months 1 - 3",
-      title: "Banswara District Pilot",
-      focus: "Ground deployment in Banswara district. Fine-tuning Vagadi/Mewari dialect speech models and mapping 20 core health & agriculture schemes.",
+      title: "Build + Banswara Pilot",
+      focus: "Ground deployment in Banswara(OR any district in Rajasthan) district with WhatsApp bot + website widget. Fine-tuning Vagadi/Mewari dialect speech models and mapping core health & agriculture schemes.",
       milestones: [
-        "Local police & district collectorate coordination",
-        "WhatsApp bot pilot with 5,000 rural citizens",
-        "Feedback calibration on dialect voice STT"
+        "WhatsApp bot + website widget initial deployment",
+        "Deterministic eligibility engine core setup",
+        "50,000+ rural citizen pilot in Banswara district"
       ],
       current: true
     },
     {
       phase: "Phase 2",
       timeline: "Months 4 - 6",
-      title: "Divisional District Expansion",
-      focus: "Expanding to Udaipur, Dungarpur, Chittorgarh & Rajsamand. Scaling rule database to 75+ department schemes.",
+      title: "District Expansion + IVR Launch",
+      focus: "Toll-free IVR / missed-call service launch following telecom gateway procurement. Expanding to 5 more Division and scaling rule database to all schemes.",
       milestones: [
+        "Toll-free IVR & missed-call voice line live",
         "Jan Soochna portal widget integration",
-        "e-Mitra kiosk operator pre-check integration",
-        "Multilingual voice TTS refinement"
+       "Dialect coverage expansion based on pilot learnings"
       ],
       current: false
     },
@@ -31,11 +31,11 @@ export default function Roadmap() {
       phase: "Phase 3",
       timeline: "Months 7 - 12",
       title: "Statewide Rajasthan Rollout",
-      focus: "Full 50-district statewide availability on WhatsApp & official government portals with automated SSO pre-fill.",
+      focus: "Full statewide availability across all 50 districts with all three channels (WhatsApp, Web, IVR) connected to automated e-Mitra SSO pre-fill.",
       milestones: [
+        "All three access channels live across all districts",
         "Full SSO & Jan Aadhar automated payload generation",
-        "300+ Rajasthan welfare scheme rule coverage",
-        "DoIT&C state server infrastructure handoff"
+        "All Rajasthan welfare scheme rule coverage",
       ],
       current: false
     }

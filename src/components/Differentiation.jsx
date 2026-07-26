@@ -10,6 +10,12 @@ export default function Differentiation() {
       highlight: true
     },
     {
+      feature: "Device & Connectivity",
+      traditional: "Requires smartphone + internet connectivity",
+      sahayak: "Also reachable by toll-free call / missed-call — zero internet or smartphone required",
+      highlight: true
+    },
+    {
       feature: "Language & Audio Support",
       traditional: "Formal Hindi & English text only",
       sahayak: "Speech-first in Hindi + regional Rajasthani dialects (Mewari, Vagadi)",
@@ -18,7 +24,7 @@ export default function Differentiation() {
     {
       feature: "Channel & Access",
       traditional: "Requires desktop browser or heavy native app download",
-      sahayak: "WhatsApp-native + zero-install web widget",
+      sahayak: "3 Front Doors: WhatsApp + Web Widget + Toll-Free IVR",
       highlight: false
     },
     {
@@ -48,7 +54,7 @@ export default function Differentiation() {
             How Sarthi Compares
           </h2>
           <p className="text-base text-slate-600 leading-relaxed">
-            Transitioning government welfare from passive static web listings to active, dialect-aware citizen delivery.
+           Transitioning government welfare from passive static web listings to active, multi-channel citizen delivery.
           </p>
         </div>
 
